@@ -1,8 +1,8 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(192, 164, 141, 0.897),
+    rgba(159, 196, 206, 0.904)
   );
 
   --image-gradient: linear-gradient(
@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #0f23d3;
 }
 
 .purple {
@@ -28,7 +28,7 @@ html {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #b69172;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -157,7 +157,7 @@ html {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: whitesmoke !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -263,7 +263,7 @@ html {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: white;
   text-align: left;
 }
 
@@ -278,17 +278,17 @@ html {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #dfe2d7;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #f3e9f7 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #17111a !important;
 }
 
 @media (max-width: 767px) {
@@ -321,10 +321,11 @@ html {
 }
 
 .home-about-description {
-  color: white !important;
+  color: black !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
+  font-size: larger;
 }
 
 .home-about-body {
@@ -336,7 +337,7 @@ html {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: white !important;
+  color: black !important;
 }
 
 .home-about-social-links {
@@ -368,7 +369,7 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #1f187a;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -376,13 +377,13 @@ html {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #1f187a;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #1f187a;
+  box-shadow: 0 0 5px #1f187a;
+  text-shadow: 0 0 2px #1f187a;
 }
 
 .social-icons {
@@ -392,7 +393,7 @@ html {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #000000 !important;
 }
 
 /* --------- */
@@ -543,7 +544,7 @@ html {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: black !important;
 }
 
 .tech-icons {
@@ -579,7 +580,7 @@ html {
 
 .quote-card-view {
   border: none !important;
-  color: white !important;
+  color: black !important;
   background-color: transparent !important;
 }
 
