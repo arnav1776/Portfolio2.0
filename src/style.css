@@ -590,7 +590,7 @@ html {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 2000px) {
   .about-img {
     padding-top: 0 !important;
   }
