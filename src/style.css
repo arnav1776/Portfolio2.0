@@ -717,7 +717,7 @@ html {
   }
 }
 
-.fork-btn {
+/* .fork-btn {
   font-size: 1.1em !important;
   padding-top: 10px !important;
 }
@@ -737,4 +737,4 @@ html {
 }
 .fork-btn-inner::after {
   display: none !important;
-}
+} */
