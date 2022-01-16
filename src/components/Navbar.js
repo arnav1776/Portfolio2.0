@@ -84,9 +84,12 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+                // as={Link}
+                // to="/resume"
+                // onClick={() => updateExpanded(false)}
+                href="https://profile.codersrank.io/user/arnav1776/"
+                target="_blank"
+                rel="noreferrer"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
