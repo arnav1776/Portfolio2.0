@@ -27,9 +27,9 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          <h3 style={{ marginBlockEnd: 0,color: "black" }}>
             "The Wind Rises!"{" "}
-          </p>
+          </h3>
           <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
