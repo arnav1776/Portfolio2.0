@@ -19,8 +19,9 @@ function Home2() {
             <span className="purple"> ABOUT ME </span>
             </h1>
             <p className="home-about-body">
-            Computer Science Undergrad
-            <br />
+            <h3>
+            Computer Science Undergrad.
+            </h3>
             Focused and enthusiastic developer with an interest in software development and artificial intelligence.
             </p>
           </Col>
